@@ -1,0 +1,112 @@
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+
+
+}
+
+
+.slider {
+  width: 500px;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slider-wrapper {
+  padding-top: 28px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  display: inline-block;
+  width: 100%;
+}
+
+.slide>img{
+    display: table;
+    margin: 0 auto;
+    width: 244px;
+    height: 324px;
+}
+
+.arrow {
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform ease-in .1s;
+}
+
+.nextArrow {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  z-index: 999;
+  color: #fff;
+}
+
+.backArrow {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  z-index: 999;
+  color: #fff;
+}
+
+.fa-arrow-right:before, .fa-arrow-left:before {
+  color: #222
+}
+cd
+.main-container > div {
+    width: 100%;
+
+}
+
+.left {
+    left: 50%;
+  }
+  
+  .right {
+    right: 50%;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    text-align: right;
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .next {
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  
+  
+
